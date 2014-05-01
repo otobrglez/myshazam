@@ -16,11 +16,15 @@ Install it as Ruby gem:
 
 2. Convert Shazam history file - myshazam-history.html - into Torrent magnet with "shazam2magnets" command.
 
-shazam2magnets ~/Downloads/myshazam-history.html &> magnets.txt
+    ```
+    shazam2magnets ~/Downloads/myshazam-history.html &> magnets.txt
+    ```
 
 3. Download files with aria2c client
 
-aria2c -i magnets.txt -d ~/Download/MyShazam
+    ```
+    aria2c -i magnets.txt -d ~/Download/MyShazam
+    ```
 
 ## Contributing
 
