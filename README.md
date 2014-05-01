@@ -20,7 +20,7 @@ Install it as Ruby gem:
     shazam2magnets ~/Downloads/myshazam-history.html &> magnets.txt
     ```
 
-3. Download files with [aria2c client](http://aria2.sourceforge.net/)
+3. Download files with [aria2c client](http://aria2.sourceforge.net/) from magnets.txt.
 
     ```
     aria2c -i magnets.txt -d ~/Download/MyShazam
