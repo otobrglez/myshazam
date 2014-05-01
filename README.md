@@ -1,4 +1,4 @@
-# Myshazam
+# myshazam
 
 Tools for handling your Shazam history / dumps.
 
