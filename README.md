@@ -14,7 +14,7 @@ Install it as Ruby gem:
 
 1. Login into your [Shazam](http://www.shazam.com/) account and click on [downlaod history](http://www.shazam.com/myshazam/download-history).
 
-2. Convert Shazam ```myshazam-history.html``` into Torrent magnet with ```shazam2magnets``` command.
+2. Convert Shazam ```myshazam-history.html``` into list of Torrent magnets with ```shazam2magnets``` command.
 
     ```
     shazam2magnets ~/Downloads/myshazam-history.html &> magnets.txt
