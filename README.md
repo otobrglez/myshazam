@@ -23,7 +23,7 @@ Install it as Ruby gem:
 3. Download files with [aria2c client](http://aria2.sourceforge.net/) from magnets.txt.
 
     ```
-    aria2c -i magnets.txt -d ~/Download/MyShazam
+    aria2c -i magnets.txt --seed-time=0 -d ~/Download/MyShazam
     ```
 
 ## Contributing
