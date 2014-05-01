@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Myshazam::VERSION
   spec.authors       = ["Oto Brglez"]
   spec.email         = ["otobrglez@gmail.com"]
-  spec.summary       = %q{Tools for working with Shazam dumps}
-  spec.description   = %q{Set of scripts to work with your Shazam data}
+  spec.summary       = %q{Tools for handling your Shazam history / dumps.}
+  spec.description   = %q{Set of scripts and tools to work with your Shazam history / data / dumps.}
   spec.homepage      = "http://github.com/otobrglez/myshazam"
   spec.license       = "MIT"
 
