@@ -1,0 +1,21 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'etc'
+require 'pathname'
+require 'nokogiri'
+require 'net/http'
+require 'open-uri'
+require 'myshazam'
+
+# Cry if no download_file
+if ARGV[0].nil? or not File.exist?(download_file = ARGV[0].strip)
+  $stderr.puts "Error: Please specify path to \"myshazam-history.html\"!"
+  exit 1
+end
+
+tracks = Myshazam::Track.list_from_file download_file
+tracks.each do |track|
+  next if track.magnet.nil?
+  $stdout.puts track.magnet
+end
